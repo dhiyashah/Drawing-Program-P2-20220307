@@ -22,7 +22,9 @@ void draw() {
 void keyPressed() {}//End keyPressed
 //
 void mousePressed() {
-  if (draw == false) {
+  //
+  if (mouseX>=drawingSurfaceX && mouseX<=drawingSurfaceX+drawingSurfaceWidth && mouseY>=drawingSurfaceY && mouseY<=drawingSurfaceY+drawingSurfaceHeight) {}//Button Paper (Drawing Surface)
+    if (draw == false) {
     draw = true;
   } else {
     draw = false;
