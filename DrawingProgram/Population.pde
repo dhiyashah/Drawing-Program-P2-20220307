@@ -1,7 +1,7 @@
-void population () {
-   drawingSurfaceX = displayWidth*1/8;
-  drawingSurfaceY = displayHeight*1/10;
-  drawingSurfaceWidth = displayWidth*6/8;
-  drawingSurfaceHeight = displayHeight*8/10;
-  drawingDiameter = width*1/100;
+void population() {
+  drawingSurfaceX = displayWidth*0/4;
+  drawingSurfaceY = displayHeight*0/5;
+  drawingSurfaceWidth = displayWidth*3/4;
+  drawingSurfaceHeight = displayHeight*4/5;
+  drawingDiameter = displayWidth*1/100;
 }//End population
